@@ -17,7 +17,7 @@ const Index = () => {
               <Image src={logo} height={60} />
             </div>
           </div>
-          <div className="min-h-[82vh]  mx-1 my-4 mt-7 rounded-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
+          <div className="min-h-[82vh]  mx-1  mt-7 rounded-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
             <div className=" border-r-2 border-white my-3 grid grid-cols-1 gap-6">
               <div className="flex justify-center items-center px-1">
                 <div>

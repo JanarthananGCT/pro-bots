@@ -92,7 +92,7 @@ const Chat = () => {
             <div className="flex justify-center  items-center">
               <div className=" rounded-md  ">
                 <div className="relative flex justify-end mr-4 -mb-9">
-                  <Image src={send} width={25} height={25} />
+                  <Image src={send} width={25} height={25} onClick={handleSubmit} className="cursor-pointer" />
                 </div>
                 <form onSubmit={handleSubmit} className="flex justify-center items-center">
                   <input
